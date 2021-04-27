@@ -1,3 +1,17 @@
+Install Live Server:
+npm install -g live-server
+
+
+Run Server:
+npm run dev or thru this command live-server
+
+###### Bonus points
+* Explain why the result of `('b' + 'a' + + 'a' + 'a').toLowerCase()` is `banana`.
+
+The result is because of the ++ that wil shows an error of NaN or not a number and adding the toLowerCase() function will result to "banana"
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
 Introduction
 ---
 Thanks for taking the time to complete this frontend technical assessment. We will be focusing on software quality (scalability, readability, maintainability, etc.) and your eye for detail. You may include any libraries, Vue.js preferred. Along with following best practices, bonus points for following our [coding guidelines](https://github.com/mindarc/frontend-assessment/wiki/Coding-guidelines). 
