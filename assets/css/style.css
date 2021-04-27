@@ -1,0 +1,184 @@
+/*
+* 
+*  General 
+*
+*
+*/
+/* .container {
+    max-width: ;
+} */
+body {
+    font-family: "Roboto", sans-serif;
+}
+/*
+* 
+*  Banner 
+*
+*/
+.hero-banner {
+    position: relative;
+    height: 650px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hero-banner::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(143, 143, 143, .25); 
+}
+
+.inner-banner-content {
+    position: relative;
+    color: #fff;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.inner-banner-content .banner-heading {
+    font-size: 87px;
+    font-weight: 700;
+}
+
+.inner-banner-content .banner-content {
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+/*
+* 
+*  Three Column
+*
+*/
+.three-column {
+    padding: 80px 0;  
+}
+
+
+.three-column .column-wrapper {
+    padding: 0 30px;
+}
+
+.three-column .inner-column-wrapper {
+    position: relative;
+    border-radius: 9px;
+    padding: 25px 25px;
+    box-shadow: 0 0px 7px 1px #ccc;
+    text-align: center;
+}
+
+.three-column .column-thumbnail {
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.three-column .column-text {
+    text-align: center;
+    font-size: 19px;
+    line-height: 30px;
+    padding: 0 10px 10px;
+    margin-bottom: 45px;
+}
+
+.three-column .column-btn-wrapper {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    padding: 20px 0 0;
+}
+
+.three-column .column-btn {
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 700;
+    border: 3px solid #000;
+    border-radius: 50px;
+    padding: 10px 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.three-column .column-btn:hover {
+    background-color: #000;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+/* 
+*
+*   Media Query
+*
+*/
+
+@media screen and (max-width: 1440px) {
+    .hero-banner {
+        height: 500px;
+     }
+    .inner-banner-content .banner-heading {
+        font-size: 70px;
+    }
+    .inner-banner-content .banner-content {
+        font-size: 30px;   
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .three-column .column-text {
+        font-size: 15px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .inner-banner-content .banner-heading {
+        font-size: 50px;
+    }
+
+    .inner-banner-content .banner-content {
+        font-size: 19px;   
+    }
+    .three-column .column-btn {
+        font-size: 15px;
+        letter-spacing: 2px;
+        padding: 5px 15px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .hero-banner {
+        height: 350px;
+     }
+     
+}
+
+@media screen and (min-width: 768px) {
+    .hero-banner {
+        background-image: url(../images/banner-1920x650.png);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero-banner {
+        height: 350px;
+        background-image: url(../images/mobile-banner-600x600.png);
+     }
+     .inner-banner-content .banner-heading {
+        font-size: 35px;
+    }
+    .three-column {
+        padding: 30px 0;
+    }
+    .three-column .column-wrapper {
+        padding: 20px 30px;
+    }
+}

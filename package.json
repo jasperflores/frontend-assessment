@@ -1,0 +1,19 @@
+{
+  "name": "frontend-assessment",
+  "version": "1.0.0",
+  "description": "Introduction\r ---\r Thanks for taking the time to complete this frontend technical assessment. We will be focusing on software quality (scalability, readability, maintainability, etc.) and your eye for detail. You may include any libraries, Vue.js preferred. Along with following best practices, bonus points for following our [coding guidelines](https://github.com/mindarc/frontend-assessment/wiki/Coding-guidelines).",
+  "main": "index.js",
+  "scripts": {
+    "dev": "live-server --no-css-inject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mindarc/frontend-assessment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mindarc/frontend-assessment/issues"
+  },
+  "homepage": "https://github.com/mindarc/frontend-assessment#readme"
+}
